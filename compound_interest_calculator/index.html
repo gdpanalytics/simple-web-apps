@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound interest calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="input-group">
+                <label for="principal">Initial capital (€):</label>
+                <input type="number" id="principal" placeholder="...">
+            </div>
+            <div class="input-group">
+                <label for="rate">Yearly interest rate (%):</label>
+                <input type="number" id="rate" placeholder="...">
+            </div>
+            <div class="input-group">
+                <label for="years">Number years:</label>
+                <input type="number" id="years" placeholder="...">
+            </div>
+            <div class="button-container">
+                <button onclick="calculateInterest()">Compute</button>
+            </div>
+            <div class="output">
+                <label><strong>Final capital (€):</strong></label>
+                <span id="totalAmount"></span>
+            </div>
+            <div class="output">
+                <label><strong>Earned interest (€):</strong></label>
+                <span id="interestEarned"></span>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="interestChart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

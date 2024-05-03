@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calendar App</title>
+    <link href='https://unpkg.com/fullcalendar@5/main.min.css' rel='stylesheet' />
+    <script src='https://unpkg.com/fullcalendar@5/locales/it.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://unpkg.com/fullcalendar@5/main.min.js'></script>
+</head>
+
+<body>
+    <div id='calendar'></div>
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="eventForm">
+                <div class="titleModal">Manage events</div>
+                <label for="eventName">Title:</label>
+                <input type="text" id="eventName" name="eventName" required>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>

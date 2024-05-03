@@ -1,0 +1,60 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input[type="range"], input[type="text"], button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.checkboxes div {
+    margin: 10px 0;
+    display: flex;
+}
+
+.checkboxContainer {
+    width: 180px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    padding: 0px
+}
+
+

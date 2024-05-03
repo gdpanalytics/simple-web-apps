@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app-container">
+    <h1>To-Do List</h1>
+    <input type="text" id="task-input" placeholder="Name..." />
+    <input type="text" id="task-desc-input" placeholder="Description..." />
+    <button id="add-task-button">Add Task</button>
+    <table id="tasks-table">
+      <colgroup>
+        <col style="width: 30%" />
+        <col style="width: 65%" />
+        <col style="width: 5%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- your tasks go here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
