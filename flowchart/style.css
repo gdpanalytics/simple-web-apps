@@ -1,0 +1,41 @@
+/* styles.css */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    /* Prevent scrolling */
+}
+
+#app {
+    display: flex;
+    height: 100%;
+}
+
+#sidebar {
+    width: 200px;
+    /* Fixed width for the sidebar */
+    background: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#canvas {
+    flex-grow: 1;
+    border-left: 1px solid #ccc;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    /* Ensures no extra margin/gap below the canvas */
+}
