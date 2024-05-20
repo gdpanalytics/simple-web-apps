@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contactList {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+#contactForm {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.list-group-item .row {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+#main-content {
+    padding: 20px 40px;
+}
